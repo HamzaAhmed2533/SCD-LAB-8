@@ -28,6 +28,8 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+      working-directory: ./Booking_Service
 
     - name: Run tests
       run: npm test
+      working-directory: ./Booking_Service
